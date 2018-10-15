@@ -43,6 +43,8 @@ D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\bin\System.Web.O
 D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\bin\Antlr3.Runtime.pdb
 D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\bin\Newtonsoft.Json.xml
 D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\bin\Microsoft.AspNet.FriendlyUrls.xml
-D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\obj\Debug\MvcAdoSqlApp.csprojResolveAssemblyReference.cache
 D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\obj\Debug\MvcAdoSqlApp.dll
 D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\obj\Debug\MvcAdoSqlApp.pdb
+D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\obj\Debug\MvcAdoSqlApp.csprojAssemblyReference.cache
+D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\obj\Debug\MvcAdoSqlApp.csproj.CoreCompileInputs.cache
+D:\Self-Education\ASP\Practics\AspNetMvcWithAdoSql\MvcAdoSqlApp\obj\Debug\MvcAdoSqlApp.csproj.CopyComplete
