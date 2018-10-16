@@ -6,9 +6,9 @@ namespace AspMvcWithAdoSql_app.Models
 {
     public class CarsDbUnityOfWork
     {
-        //private string _connectionString = @"Data Source=.\MSSQLSERVER;Initial Catalog=CarsDb;Integrated Security=True";
+        private string _connectionString = @"Data Source=.\LHATEPEOPLE-ПК;Initial Catalog=CarsDb;Integrated Security=True";
 
-        private static string _connectionString = ConfigurationManager.ConnectionStrings["CarsDbConnectionString"].ConnectionString;
+        //private static string _connectionString = ConfigurationManager.ConnectionStrings["CarsDbConnectionString"].ConnectionString;
 
         public string GetAllCars()
         {
@@ -19,12 +19,17 @@ namespace AspMvcWithAdoSql_app.Models
                 command.Connection = connection;
 
                 var resalt = command.ExecuteScalar();
+                connection.Close();
 
                 if (resalt != null)
                 {
                     return resalt.ToString();
                 }
-                return "empty";
+                else
+                {
+                    return "Empty";
+                }
+
             }
 
 

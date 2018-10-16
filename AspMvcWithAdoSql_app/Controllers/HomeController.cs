@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using AspMvcWithAdoSql_app.Models
+using AspMvcWithAdoSql_app.Models;
 
 namespace AspMvcWithAdoSql_app.Controllers
 {
