@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AspMvcWithAdoSql_app.Models
 
 namespace AspMvcWithAdoSql_app.Controllers
 {
     public class HomeController : Controller
     {
+        private CarsDbUnityOfWork _db = new CarsDbUnityOfWork();
+
         public ActionResult Index()
         {
+            ViewBag.Info = _db.GetAllCars();
             return View();
         }
 
